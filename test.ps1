@@ -1,4 +1,5 @@
-For ($i=0; $i -le 100; $i++)
+For ($i=1; $i -le 100; $i++)
 {
+    echo "Run #${i}:"
     cargo bench
 }
