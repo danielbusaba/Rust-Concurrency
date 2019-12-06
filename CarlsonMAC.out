@@ -1,0 +1,1200 @@
+Run #1:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,733 ns/iter (+/- 1,529)
+test bench_div16_chnk_simd ... bench:      16,898 ns/iter (+/- 1,536)
+test bench_div16_iter      ... bench:      29,608 ns/iter (+/- 2,802)
+test bench_div16_loop      ... bench:   2,944,842 ns/iter (+/- 185,129)
+test bench_div16_par       ... bench:      30,788 ns/iter (+/- 2,863)
+test bench_div16_simd      ... bench:      34,618 ns/iter (+/- 1,195)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #2:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,753 ns/iter (+/- 6,281)
+test bench_div16_chnk_simd ... bench:      16,899 ns/iter (+/- 765)
+test bench_div16_iter      ... bench:      28,821 ns/iter (+/- 433)
+test bench_div16_loop      ... bench:   2,823,744 ns/iter (+/- 292,029)
+test bench_div16_par       ... bench:      30,734 ns/iter (+/- 430)
+test bench_div16_simd      ... bench:      34,606 ns/iter (+/- 905)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #3:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,680 ns/iter (+/- 1,830)
+test bench_div16_chnk_simd ... bench:      16,863 ns/iter (+/- 6,991)
+test bench_div16_iter      ... bench:      29,239 ns/iter (+/- 356)
+test bench_div16_loop      ... bench:   2,820,681 ns/iter (+/- 274,968)
+test bench_div16_par       ... bench:      30,725 ns/iter (+/- 6,187)
+test bench_div16_simd      ... bench:      34,758 ns/iter (+/- 1,290)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #4:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,634 ns/iter (+/- 2,064)
+test bench_div16_chnk_simd ... bench:      16,883 ns/iter (+/- 848)
+test bench_div16_iter      ... bench:      29,227 ns/iter (+/- 474)
+test bench_div16_loop      ... bench:   2,822,618 ns/iter (+/- 124,018)
+test bench_div16_par       ... bench:      30,923 ns/iter (+/- 8,550)
+test bench_div16_simd      ... bench:      36,052 ns/iter (+/- 2,706)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #5:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,963 ns/iter (+/- 8,572)
+test bench_div16_chnk_simd ... bench:      16,870 ns/iter (+/- 1,068)
+test bench_div16_iter      ... bench:      29,879 ns/iter (+/- 6,188)
+test bench_div16_loop      ... bench:   2,943,189 ns/iter (+/- 150,610)
+test bench_div16_par       ... bench:      30,664 ns/iter (+/- 720)
+test bench_div16_simd      ... bench:      34,600 ns/iter (+/- 710)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #6:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,671 ns/iter (+/- 516)
+test bench_div16_chnk_simd ... bench:      16,934 ns/iter (+/- 2,164)
+test bench_div16_iter      ... bench:      29,611 ns/iter (+/- 393)
+test bench_div16_loop      ... bench:   2,832,538 ns/iter (+/- 154,233)
+test bench_div16_par       ... bench:      30,752 ns/iter (+/- 766)
+test bench_div16_simd      ... bench:      34,603 ns/iter (+/- 578)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #7:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,664 ns/iter (+/- 1,835)
+test bench_div16_chnk_simd ... bench:      16,914 ns/iter (+/- 233)
+test bench_div16_iter      ... bench:      29,606 ns/iter (+/- 209)
+test bench_div16_loop      ... bench:   2,949,115 ns/iter (+/- 176,211)
+test bench_div16_par       ... bench:      30,735 ns/iter (+/- 4,901)
+test bench_div16_simd      ... bench:      34,589 ns/iter (+/- 517)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #8:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,653 ns/iter (+/- 5,653)
+test bench_div16_chnk_simd ... bench:      16,730 ns/iter (+/- 1,389)
+test bench_div16_iter      ... bench:      29,575 ns/iter (+/- 1,139)
+test bench_div16_loop      ... bench:   2,944,049 ns/iter (+/- 155,675)
+test bench_div16_par       ... bench:      30,813 ns/iter (+/- 752)
+test bench_div16_simd      ... bench:      34,602 ns/iter (+/- 2,432)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #9:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,666 ns/iter (+/- 484)
+test bench_div16_chnk_simd ... bench:      16,817 ns/iter (+/- 865)
+test bench_div16_iter      ... bench:      29,544 ns/iter (+/- 750)
+test bench_div16_loop      ... bench:   2,936,500 ns/iter (+/- 230,321)
+test bench_div16_par       ... bench:      30,690 ns/iter (+/- 362)
+test bench_div16_simd      ... bench:      34,728 ns/iter (+/- 898)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #10:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,624 ns/iter (+/- 521)
+test bench_div16_chnk_simd ... bench:      16,988 ns/iter (+/- 9,138)
+test bench_div16_iter      ... bench:      29,622 ns/iter (+/- 543)
+test bench_div16_loop      ... bench:   2,941,327 ns/iter (+/- 163,501)
+test bench_div16_par       ... bench:      30,653 ns/iter (+/- 1,370)
+test bench_div16_simd      ... bench:      34,868 ns/iter (+/- 6,111)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #11:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,604 ns/iter (+/- 517)
+test bench_div16_chnk_simd ... bench:      16,893 ns/iter (+/- 2,335)
+test bench_div16_iter      ... bench:      29,227 ns/iter (+/- 977)
+test bench_div16_loop      ... bench:   2,833,685 ns/iter (+/- 177,456)
+test bench_div16_par       ... bench:      30,756 ns/iter (+/- 2,937)
+test bench_div16_simd      ... bench:      34,605 ns/iter (+/- 1,018)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #12:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,715 ns/iter (+/- 358)
+test bench_div16_chnk_simd ... bench:      16,916 ns/iter (+/- 384)
+test bench_div16_iter      ... bench:      29,167 ns/iter (+/- 7,407)
+test bench_div16_loop      ... bench:   2,942,066 ns/iter (+/- 190,880)
+test bench_div16_par       ... bench:      30,686 ns/iter (+/- 1,803)
+test bench_div16_simd      ... bench:      34,580 ns/iter (+/- 8,876)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #13:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,690 ns/iter (+/- 479)
+test bench_div16_chnk_simd ... bench:      16,901 ns/iter (+/- 787)
+test bench_div16_iter      ... bench:      29,215 ns/iter (+/- 466)
+test bench_div16_loop      ... bench:   2,819,762 ns/iter (+/- 59,055)
+test bench_div16_par       ... bench:      30,625 ns/iter (+/- 582)
+test bench_div16_simd      ... bench:      34,742 ns/iter (+/- 2,234)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #14:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,773 ns/iter (+/- 4,311)
+test bench_div16_chnk_simd ... bench:      16,868 ns/iter (+/- 385)
+test bench_div16_iter      ... bench:      29,373 ns/iter (+/- 475)
+test bench_div16_loop      ... bench:   2,827,708 ns/iter (+/- 158,002)
+test bench_div16_par       ... bench:      30,641 ns/iter (+/- 4,784)
+test bench_div16_simd      ... bench:      34,605 ns/iter (+/- 654)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #15:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,720 ns/iter (+/- 950)
+test bench_div16_chnk_simd ... bench:      16,865 ns/iter (+/- 941)
+test bench_div16_iter      ... bench:      29,378 ns/iter (+/- 1,330)
+test bench_div16_loop      ... bench:   2,949,887 ns/iter (+/- 241,209)
+test bench_div16_par       ... bench:      30,742 ns/iter (+/- 922)
+test bench_div16_simd      ... bench:      34,607 ns/iter (+/- 785)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #16:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,704 ns/iter (+/- 1,867)
+test bench_div16_chnk_simd ... bench:      16,889 ns/iter (+/- 506)
+test bench_div16_iter      ... bench:      29,460 ns/iter (+/- 5,101)
+test bench_div16_loop      ... bench:   2,953,454 ns/iter (+/- 166,938)
+test bench_div16_par       ... bench:      30,715 ns/iter (+/- 4,400)
+test bench_div16_simd      ... bench:      34,742 ns/iter (+/- 860)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #17:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,774 ns/iter (+/- 610)
+test bench_div16_chnk_simd ... bench:      22,899 ns/iter (+/- 8,257)
+test bench_div16_iter      ... bench:      29,555 ns/iter (+/- 1,062)
+test bench_div16_loop      ... bench:   2,940,382 ns/iter (+/- 165,584)
+test bench_div16_par       ... bench:      30,679 ns/iter (+/- 1,695)
+test bench_div16_simd      ... bench:      34,799 ns/iter (+/- 799)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #18:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,807 ns/iter (+/- 2,810)
+test bench_div16_chnk_simd ... bench:      16,887 ns/iter (+/- 4,814)
+test bench_div16_iter      ... bench:      28,739 ns/iter (+/- 764)
+test bench_div16_loop      ... bench:   2,942,426 ns/iter (+/- 167,247)
+test bench_div16_par       ... bench:      30,732 ns/iter (+/- 827)
+test bench_div16_simd      ... bench:      34,585 ns/iter (+/- 8,064)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #19:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,750 ns/iter (+/- 14,263)
+test bench_div16_chnk_simd ... bench:      16,884 ns/iter (+/- 1,820)
+test bench_div16_iter      ... bench:      29,587 ns/iter (+/- 892)
+test bench_div16_loop      ... bench:   2,955,291 ns/iter (+/- 54,224)
+test bench_div16_par       ... bench:      30,759 ns/iter (+/- 6,427)
+test bench_div16_simd      ... bench:      34,599 ns/iter (+/- 656)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #20:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,692 ns/iter (+/- 972)
+test bench_div16_chnk_simd ... bench:      16,830 ns/iter (+/- 457)
+test bench_div16_iter      ... bench:      29,651 ns/iter (+/- 6,416)
+test bench_div16_loop      ... bench:   2,937,970 ns/iter (+/- 177,175)
+test bench_div16_par       ... bench:      30,593 ns/iter (+/- 5,117)
+test bench_div16_simd      ... bench:      34,602 ns/iter (+/- 761)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #21:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,659 ns/iter (+/- 2,541)
+test bench_div16_chnk_simd ... bench:      16,902 ns/iter (+/- 5,560)
+test bench_div16_iter      ... bench:      29,607 ns/iter (+/- 566)
+test bench_div16_loop      ... bench:   2,942,387 ns/iter (+/- 173,760)
+test bench_div16_par       ... bench:      30,591 ns/iter (+/- 10,998)
+test bench_div16_simd      ... bench:      34,801 ns/iter (+/- 1,059)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #22:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,660 ns/iter (+/- 1,696)
+test bench_div16_chnk_simd ... bench:      16,853 ns/iter (+/- 761)
+test bench_div16_iter      ... bench:      29,101 ns/iter (+/- 1,026)
+test bench_div16_loop      ... bench:   2,943,340 ns/iter (+/- 174,314)
+test bench_div16_par       ... bench:      30,661 ns/iter (+/- 15,269)
+test bench_div16_simd      ... bench:      34,801 ns/iter (+/- 940)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #23:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,705 ns/iter (+/- 1,783)
+test bench_div16_chnk_simd ... bench:      16,740 ns/iter (+/- 2,537)
+test bench_div16_iter      ... bench:      29,228 ns/iter (+/- 569)
+test bench_div16_loop      ... bench:   2,829,012 ns/iter (+/- 146,985)
+test bench_div16_par       ... bench:      30,683 ns/iter (+/- 441)
+test bench_div16_simd      ... bench:      34,726 ns/iter (+/- 853)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #24:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,668 ns/iter (+/- 2,330)
+test bench_div16_chnk_simd ... bench:      16,816 ns/iter (+/- 483)
+test bench_div16_iter      ... bench:      29,573 ns/iter (+/- 3,268)
+test bench_div16_loop      ... bench:   2,948,783 ns/iter (+/- 168,719)
+test bench_div16_par       ... bench:      30,694 ns/iter (+/- 543)
+test bench_div16_simd      ... bench:      34,587 ns/iter (+/- 557)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #25:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,672 ns/iter (+/- 2,001)
+test bench_div16_chnk_simd ... bench:      16,861 ns/iter (+/- 710)
+test bench_div16_iter      ... bench:      29,106 ns/iter (+/- 653)
+test bench_div16_loop      ... bench:   2,947,161 ns/iter (+/- 56,536)
+test bench_div16_par       ... bench:      30,878 ns/iter (+/- 575)
+test bench_div16_simd      ... bench:      34,726 ns/iter (+/- 799)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #26:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,243 ns/iter (+/- 1,209)
+test bench_div16_chnk_simd ... bench:      16,745 ns/iter (+/- 284)
+test bench_div16_iter      ... bench:      29,424 ns/iter (+/- 1,209)
+test bench_div16_loop      ... bench:   2,943,859 ns/iter (+/- 238,398)
+test bench_div16_par       ... bench:      30,787 ns/iter (+/- 481)
+test bench_div16_simd      ... bench:      34,739 ns/iter (+/- 939)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #27:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,799 ns/iter (+/- 866)
+test bench_div16_chnk_simd ... bench:      16,927 ns/iter (+/- 663)
+test bench_div16_iter      ... bench:      29,284 ns/iter (+/- 543)
+test bench_div16_loop      ... bench:   2,818,226 ns/iter (+/- 153,465)
+test bench_div16_par       ... bench:      30,843 ns/iter (+/- 2,543)
+test bench_div16_simd      ... bench:      34,599 ns/iter (+/- 604)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #28:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,812 ns/iter (+/- 1,491)
+test bench_div16_chnk_simd ... bench:      16,900 ns/iter (+/- 941)
+test bench_div16_iter      ... bench:      29,310 ns/iter (+/- 826)
+test bench_div16_loop      ... bench:   2,821,691 ns/iter (+/- 43,390)
+test bench_div16_par       ... bench:      30,646 ns/iter (+/- 10,389)
+test bench_div16_simd      ... bench:      34,731 ns/iter (+/- 1,221)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #29:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,648 ns/iter (+/- 1,772)
+test bench_div16_chnk_simd ... bench:      16,871 ns/iter (+/- 356)
+test bench_div16_iter      ... bench:      29,232 ns/iter (+/- 640)
+test bench_div16_loop      ... bench:   2,817,727 ns/iter (+/- 30,839)
+test bench_div16_par       ... bench:      30,780 ns/iter (+/- 716)
+test bench_div16_simd      ... bench:      34,728 ns/iter (+/- 548)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #30:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,563 ns/iter (+/- 4,713)
+test bench_div16_chnk_simd ... bench:      16,827 ns/iter (+/- 213)
+test bench_div16_iter      ... bench:      29,608 ns/iter (+/- 942)
+test bench_div16_loop      ... bench:   2,950,405 ns/iter (+/- 73,570)
+test bench_div16_par       ... bench:      30,739 ns/iter (+/- 8,085)
+test bench_div16_simd      ... bench:      34,602 ns/iter (+/- 528)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #31:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,699 ns/iter (+/- 535)
+test bench_div16_chnk_simd ... bench:      16,901 ns/iter (+/- 514)
+test bench_div16_iter      ... bench:      29,303 ns/iter (+/- 885)
+test bench_div16_loop      ... bench:   2,823,969 ns/iter (+/- 155,974)
+test bench_div16_par       ... bench:      30,565 ns/iter (+/- 7,475)
+test bench_div16_simd      ... bench:      34,658 ns/iter (+/- 731)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #32:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,827 ns/iter (+/- 441)
+test bench_div16_chnk_simd ... bench:      16,955 ns/iter (+/- 289)
+test bench_div16_iter      ... bench:      29,229 ns/iter (+/- 441)
+test bench_div16_loop      ... bench:   2,814,820 ns/iter (+/- 144,267)
+test bench_div16_par       ... bench:      30,699 ns/iter (+/- 403)
+test bench_div16_simd      ... bench:      34,614 ns/iter (+/- 891)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #33:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,562 ns/iter (+/- 495)
+test bench_div16_chnk_simd ... bench:      16,859 ns/iter (+/- 301)
+test bench_div16_iter      ... bench:      28,760 ns/iter (+/- 459)
+test bench_div16_loop      ... bench:   2,819,856 ns/iter (+/- 55,493)
+test bench_div16_par       ... bench:      30,821 ns/iter (+/- 685)
+test bench_div16_simd      ... bench:      34,604 ns/iter (+/- 1,885)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #34:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,716 ns/iter (+/- 482)
+test bench_div16_chnk_simd ... bench:      16,828 ns/iter (+/- 1,051)
+test bench_div16_iter      ... bench:      29,615 ns/iter (+/- 827)
+test bench_div16_loop      ... bench:   2,947,387 ns/iter (+/- 184,424)
+test bench_div16_par       ... bench:      30,676 ns/iter (+/- 1,378)
+test bench_div16_simd      ... bench:      34,589 ns/iter (+/- 3,400)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #35:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,744 ns/iter (+/- 2,672)
+test bench_div16_chnk_simd ... bench:      16,913 ns/iter (+/- 707)
+test bench_div16_iter      ... bench:      29,214 ns/iter (+/- 919)
+test bench_div16_loop      ... bench:   2,820,576 ns/iter (+/- 218,739)
+test bench_div16_par       ... bench:      30,720 ns/iter (+/- 8,453)
+test bench_div16_simd      ... bench:      34,729 ns/iter (+/- 651)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #36:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,877 ns/iter (+/- 3,487)
+test bench_div16_chnk_simd ... bench:      16,908 ns/iter (+/- 206)
+test bench_div16_iter      ... bench:      29,529 ns/iter (+/- 1,182)
+test bench_div16_loop      ... bench:   2,944,898 ns/iter (+/- 30,910)
+test bench_div16_par       ... bench:      30,681 ns/iter (+/- 22,845)
+test bench_div16_simd      ... bench:      34,742 ns/iter (+/- 2,053)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #37:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,607 ns/iter (+/- 640)
+test bench_div16_chnk_simd ... bench:      16,795 ns/iter (+/- 320)
+test bench_div16_iter      ... bench:      29,609 ns/iter (+/- 583)
+test bench_div16_loop      ... bench:   2,952,911 ns/iter (+/- 29,871)
+test bench_div16_par       ... bench:      30,615 ns/iter (+/- 2,879)
+test bench_div16_simd      ... bench:      34,585 ns/iter (+/- 2,397)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #38:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,709 ns/iter (+/- 577)
+test bench_div16_chnk_simd ... bench:      16,847 ns/iter (+/- 300)
+test bench_div16_iter      ... bench:      29,604 ns/iter (+/- 482)
+test bench_div16_loop      ... bench:   2,938,142 ns/iter (+/- 137,920)
+test bench_div16_par       ... bench:      30,672 ns/iter (+/- 6,131)
+test bench_div16_simd      ... bench:      34,607 ns/iter (+/- 953)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #39:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,613 ns/iter (+/- 1,396)
+test bench_div16_chnk_simd ... bench:      16,869 ns/iter (+/- 2,074)
+test bench_div16_iter      ... bench:      29,593 ns/iter (+/- 721)
+test bench_div16_loop      ... bench:   2,956,073 ns/iter (+/- 34,452)
+test bench_div16_par       ... bench:      30,660 ns/iter (+/- 601)
+test bench_div16_simd      ... bench:      34,742 ns/iter (+/- 499)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #40:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,625 ns/iter (+/- 360)
+test bench_div16_chnk_simd ... bench:      16,774 ns/iter (+/- 230)
+test bench_div16_iter      ... bench:      28,893 ns/iter (+/- 348)
+test bench_div16_loop      ... bench:   2,822,277 ns/iter (+/- 56,240)
+test bench_div16_par       ... bench:      30,604 ns/iter (+/- 3,410)
+test bench_div16_simd      ... bench:      34,595 ns/iter (+/- 375)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #41:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,559 ns/iter (+/- 460)
+test bench_div16_chnk_simd ... bench:      16,853 ns/iter (+/- 439)
+test bench_div16_iter      ... bench:      29,086 ns/iter (+/- 897)
+test bench_div16_loop      ... bench:   2,950,153 ns/iter (+/- 119,548)
+test bench_div16_par       ... bench:      30,644 ns/iter (+/- 647)
+test bench_div16_simd      ... bench:      34,731 ns/iter (+/- 831)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #42:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,718 ns/iter (+/- 5,852)
+test bench_div16_chnk_simd ... bench:      16,835 ns/iter (+/- 3,271)
+test bench_div16_iter      ... bench:      29,219 ns/iter (+/- 1,306)
+test bench_div16_loop      ... bench:   2,811,470 ns/iter (+/- 53,763)
+test bench_div16_par       ... bench:      30,673 ns/iter (+/- 1,045)
+test bench_div16_simd      ... bench:      34,801 ns/iter (+/- 940)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #43:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,748 ns/iter (+/- 1,832)
+test bench_div16_chnk_simd ... bench:      16,935 ns/iter (+/- 10,905)
+test bench_div16_iter      ... bench:      28,882 ns/iter (+/- 513)
+test bench_div16_loop      ... bench:   2,949,399 ns/iter (+/- 345,899)
+test bench_div16_par       ... bench:      30,701 ns/iter (+/- 446)
+test bench_div16_simd      ... bench:      34,586 ns/iter (+/- 741)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #44:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,636 ns/iter (+/- 1,831)
+test bench_div16_chnk_simd ... bench:      16,800 ns/iter (+/- 226)
+test bench_div16_iter      ... bench:      29,761 ns/iter (+/- 3,259)
+test bench_div16_loop      ... bench:   2,951,391 ns/iter (+/- 58,363)
+test bench_div16_par       ... bench:      30,667 ns/iter (+/- 356)
+test bench_div16_simd      ... bench:      34,730 ns/iter (+/- 881)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #45:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,628 ns/iter (+/- 426)
+test bench_div16_chnk_simd ... bench:      16,805 ns/iter (+/- 858)
+test bench_div16_iter      ... bench:      29,360 ns/iter (+/- 638)
+test bench_div16_loop      ... bench:   2,829,609 ns/iter (+/- 135,558)
+test bench_div16_par       ... bench:      30,676 ns/iter (+/- 3,142)
+test bench_div16_simd      ... bench:      34,730 ns/iter (+/- 766)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #46:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,611 ns/iter (+/- 389)
+test bench_div16_chnk_simd ... bench:      16,826 ns/iter (+/- 6,354)
+test bench_div16_iter      ... bench:      29,521 ns/iter (+/- 812)
+test bench_div16_loop      ... bench:   2,952,266 ns/iter (+/- 135,912)
+test bench_div16_par       ... bench:      30,731 ns/iter (+/- 7,779)
+test bench_div16_simd      ... bench:      34,595 ns/iter (+/- 588)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #47:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,673 ns/iter (+/- 4,152)
+test bench_div16_chnk_simd ... bench:      16,913 ns/iter (+/- 366)
+test bench_div16_iter      ... bench:      28,886 ns/iter (+/- 669)
+test bench_div16_loop      ... bench:   2,951,122 ns/iter (+/- 150,485)
+test bench_div16_par       ... bench:      30,658 ns/iter (+/- 795)
+test bench_div16_simd      ... bench:      34,732 ns/iter (+/- 871)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #48:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,704 ns/iter (+/- 1,281)
+test bench_div16_chnk_simd ... bench:      16,783 ns/iter (+/- 597)
+test bench_div16_iter      ... bench:      29,586 ns/iter (+/- 889)
+test bench_div16_loop      ... bench:   2,948,675 ns/iter (+/- 160,352)
+test bench_div16_par       ... bench:      30,704 ns/iter (+/- 4,059)
+test bench_div16_simd      ... bench:      34,659 ns/iter (+/- 674)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #49:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,586 ns/iter (+/- 2,386)
+test bench_div16_chnk_simd ... bench:      16,860 ns/iter (+/- 1,449)
+test bench_div16_iter      ... bench:      29,082 ns/iter (+/- 813)
+test bench_div16_loop      ... bench:   2,820,361 ns/iter (+/- 60,866)
+test bench_div16_par       ... bench:      30,704 ns/iter (+/- 22,135)
+test bench_div16_simd      ... bench:      34,598 ns/iter (+/- 8,315)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #50:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,741 ns/iter (+/- 402)
+test bench_div16_chnk_simd ... bench:      16,864 ns/iter (+/- 1,852)
+test bench_div16_iter      ... bench:      29,081 ns/iter (+/- 559)
+test bench_div16_loop      ... bench:   2,943,974 ns/iter (+/- 156,012)
+test bench_div16_par       ... bench:      30,542 ns/iter (+/- 1,541)
+test bench_div16_simd      ... bench:      34,585 ns/iter (+/- 827)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #51:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,630 ns/iter (+/- 2,310)
+test bench_div16_chnk_simd ... bench:      16,875 ns/iter (+/- 497)
+test bench_div16_iter      ... bench:      28,887 ns/iter (+/- 333)
+test bench_div16_loop      ... bench:   2,820,377 ns/iter (+/- 30,606)
+test bench_div16_par       ... bench:      30,699 ns/iter (+/- 3,059)
+test bench_div16_simd      ... bench:      34,735 ns/iter (+/- 591)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #52:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,701 ns/iter (+/- 561)
+test bench_div16_chnk_simd ... bench:      16,825 ns/iter (+/- 1,101)
+test bench_div16_iter      ... bench:      29,753 ns/iter (+/- 2,035)
+test bench_div16_loop      ... bench:   2,946,069 ns/iter (+/- 159,363)
+test bench_div16_par       ... bench:      30,604 ns/iter (+/- 539)
+test bench_div16_simd      ... bench:      34,588 ns/iter (+/- 973)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #53:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,731 ns/iter (+/- 6,070)
+test bench_div16_chnk_simd ... bench:      16,865 ns/iter (+/- 503)
+test bench_div16_iter      ... bench:      29,227 ns/iter (+/- 863)
+test bench_div16_loop      ... bench:   2,809,054 ns/iter (+/- 45,681)
+test bench_div16_par       ... bench:      30,684 ns/iter (+/- 445)
+test bench_div16_simd      ... bench:      34,693 ns/iter (+/- 823)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #54:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,605 ns/iter (+/- 700)
+test bench_div16_chnk_simd ... bench:      16,801 ns/iter (+/- 425)
+test bench_div16_iter      ... bench:      29,049 ns/iter (+/- 826)
+test bench_div16_loop      ... bench:   3,041,977 ns/iter (+/- 726,018)
+test bench_div16_par       ... bench:      31,055 ns/iter (+/- 22,543)
+test bench_div16_simd      ... bench:      35,992 ns/iter (+/- 6,494)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #55:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      31,791 ns/iter (+/- 44,085)
+test bench_div16_chnk_simd ... bench:      17,731 ns/iter (+/- 3,464)
+test bench_div16_iter      ... bench:      29,590 ns/iter (+/- 1,446)
+test bench_div16_loop      ... bench:   2,964,567 ns/iter (+/- 1,016,173)
+test bench_div16_par       ... bench:      30,751 ns/iter (+/- 5,454)
+test bench_div16_simd      ... bench:      35,930 ns/iter (+/- 2,927)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #56:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,841 ns/iter (+/- 1,106)
+test bench_div16_chnk_simd ... bench:      16,882 ns/iter (+/- 2,017)
+test bench_div16_iter      ... bench:      29,408 ns/iter (+/- 2,296)
+test bench_div16_loop      ... bench:   2,963,691 ns/iter (+/- 381,838)
+test bench_div16_par       ... bench:      30,646 ns/iter (+/- 1,329)
+test bench_div16_simd      ... bench:      34,729 ns/iter (+/- 691)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #57:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,691 ns/iter (+/- 593)
+test bench_div16_chnk_simd ... bench:      16,889 ns/iter (+/- 490)
+test bench_div16_iter      ... bench:      28,732 ns/iter (+/- 694)
+test bench_div16_loop      ... bench:   2,956,144 ns/iter (+/- 306,128)
+test bench_div16_par       ... bench:      30,974 ns/iter (+/- 11,938)
+test bench_div16_simd      ... bench:      36,597 ns/iter (+/- 4,328)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #58:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      25,165 ns/iter (+/- 2,025)
+test bench_div16_chnk_simd ... bench:      16,842 ns/iter (+/- 1,673)
+test bench_div16_iter      ... bench:      29,609 ns/iter (+/- 1,314)
+test bench_div16_loop      ... bench:   2,947,248 ns/iter (+/- 130,417)
+test bench_div16_par       ... bench:      30,679 ns/iter (+/- 6,819)
+test bench_div16_simd      ... bench:      34,609 ns/iter (+/- 935)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #59:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,672 ns/iter (+/- 2,702)
+test bench_div16_chnk_simd ... bench:      16,887 ns/iter (+/- 398)
+test bench_div16_iter      ... bench:      29,586 ns/iter (+/- 1,479)
+test bench_div16_loop      ... bench:   2,940,707 ns/iter (+/- 156,664)
+test bench_div16_par       ... bench:      30,764 ns/iter (+/- 7,208)
+test bench_div16_simd      ... bench:      34,607 ns/iter (+/- 814)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #60:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,656 ns/iter (+/- 4,123)
+test bench_div16_chnk_simd ... bench:      16,912 ns/iter (+/- 6,702)
+test bench_div16_iter      ... bench:      29,463 ns/iter (+/- 1,204)
+test bench_div16_loop      ... bench:   2,949,157 ns/iter (+/- 133,341)
+test bench_div16_par       ... bench:      30,619 ns/iter (+/- 1,633)
+test bench_div16_simd      ... bench:      34,680 ns/iter (+/- 493)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #61:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,722 ns/iter (+/- 6,605)
+test bench_div16_chnk_simd ... bench:      16,854 ns/iter (+/- 309)
+test bench_div16_iter      ... bench:      29,654 ns/iter (+/- 1,288)
+test bench_div16_loop      ... bench:   2,945,857 ns/iter (+/- 244,564)
+test bench_div16_par       ... bench:      30,706 ns/iter (+/- 1,052)
+test bench_div16_simd      ... bench:      34,605 ns/iter (+/- 995)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #62:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,639 ns/iter (+/- 417)
+test bench_div16_chnk_simd ... bench:      16,871 ns/iter (+/- 7,104)
+test bench_div16_iter      ... bench:      29,235 ns/iter (+/- 1,423)
+test bench_div16_loop      ... bench:   2,949,500 ns/iter (+/- 134,889)
+test bench_div16_par       ... bench:      30,641 ns/iter (+/- 677)
+test bench_div16_simd      ... bench:      34,733 ns/iter (+/- 943)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #63:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,730 ns/iter (+/- 5,726)
+test bench_div16_chnk_simd ... bench:      16,796 ns/iter (+/- 488)
+test bench_div16_iter      ... bench:      29,563 ns/iter (+/- 2,055)
+test bench_div16_loop      ... bench:   2,861,854 ns/iter (+/- 155,553)
+test bench_div16_par       ... bench:      30,806 ns/iter (+/- 1,461)
+test bench_div16_simd      ... bench:      34,608 ns/iter (+/- 671)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #64:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,649 ns/iter (+/- 615)
+test bench_div16_chnk_simd ... bench:      16,767 ns/iter (+/- 383)
+test bench_div16_iter      ... bench:      29,606 ns/iter (+/- 1,417)
+test bench_div16_loop      ... bench:   2,948,446 ns/iter (+/- 132,044)
+test bench_div16_par       ... bench:      30,727 ns/iter (+/- 873)
+test bench_div16_simd      ... bench:      34,727 ns/iter (+/- 1,185)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #65:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,763 ns/iter (+/- 698)
+test bench_div16_chnk_simd ... bench:      16,954 ns/iter (+/- 318)
+test bench_div16_iter      ... bench:      29,403 ns/iter (+/- 444)
+test bench_div16_loop      ... bench:   2,953,860 ns/iter (+/- 165,807)
+test bench_div16_par       ... bench:      30,693 ns/iter (+/- 11,723)
+test bench_div16_simd      ... bench:      34,605 ns/iter (+/- 773)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #66:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,682 ns/iter (+/- 723)
+test bench_div16_chnk_simd ... bench:      16,964 ns/iter (+/- 4,110)
+test bench_div16_iter      ... bench:      29,614 ns/iter (+/- 611)
+test bench_div16_loop      ... bench:   2,950,257 ns/iter (+/- 161,993)
+test bench_div16_par       ... bench:      31,099 ns/iter (+/- 2,125)
+test bench_div16_simd      ... bench:      37,007 ns/iter (+/- 2,014)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #67:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,723 ns/iter (+/- 1,434)
+test bench_div16_chnk_simd ... bench:      16,901 ns/iter (+/- 4,841)
+test bench_div16_iter      ... bench:      29,605 ns/iter (+/- 681)
+test bench_div16_loop      ... bench:   2,944,001 ns/iter (+/- 158,007)
+test bench_div16_par       ... bench:      30,740 ns/iter (+/- 872)
+test bench_div16_simd      ... bench:      34,671 ns/iter (+/- 852)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #68:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,647 ns/iter (+/- 3,773)
+test bench_div16_chnk_simd ... bench:      16,839 ns/iter (+/- 1,166)
+test bench_div16_iter      ... bench:      29,253 ns/iter (+/- 2,501)
+test bench_div16_loop      ... bench:   2,941,267 ns/iter (+/- 423,068)
+test bench_div16_par       ... bench:      30,832 ns/iter (+/- 1,623)
+test bench_div16_simd      ... bench:      34,776 ns/iter (+/- 1,113)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #69:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,646 ns/iter (+/- 1,260)
+test bench_div16_chnk_simd ... bench:      16,811 ns/iter (+/- 6,255)
+test bench_div16_iter      ... bench:      29,585 ns/iter (+/- 646)
+test bench_div16_loop      ... bench:   2,828,616 ns/iter (+/- 158,466)
+test bench_div16_par       ... bench:      30,699 ns/iter (+/- 1,156)
+test bench_div16_simd      ... bench:      34,652 ns/iter (+/- 1,005)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #70:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,774 ns/iter (+/- 1,318)
+test bench_div16_chnk_simd ... bench:      16,854 ns/iter (+/- 834)
+test bench_div16_iter      ... bench:      29,585 ns/iter (+/- 1,770)
+test bench_div16_loop      ... bench:   2,822,661 ns/iter (+/- 88,342)
+test bench_div16_par       ... bench:      30,675 ns/iter (+/- 1,377)
+test bench_div16_simd      ... bench:      34,606 ns/iter (+/- 1,203)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #71:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,767 ns/iter (+/- 3,886)
+test bench_div16_chnk_simd ... bench:      16,911 ns/iter (+/- 2,179)
+test bench_div16_iter      ... bench:      29,675 ns/iter (+/- 1,162)
+test bench_div16_loop      ... bench:   2,956,786 ns/iter (+/- 217,938)
+test bench_div16_par       ... bench:      30,896 ns/iter (+/- 1,470)
+test bench_div16_simd      ... bench:      34,677 ns/iter (+/- 997)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #72:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,607 ns/iter (+/- 2,259)
+test bench_div16_chnk_simd ... bench:      16,823 ns/iter (+/- 6,299)
+test bench_div16_iter      ... bench:      29,080 ns/iter (+/- 1,143)
+test bench_div16_loop      ... bench:   2,827,166 ns/iter (+/- 151,245)
+test bench_div16_par       ... bench:      30,579 ns/iter (+/- 1,279)
+test bench_div16_simd      ... bench:      34,785 ns/iter (+/- 943)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #73:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,687 ns/iter (+/- 570)
+test bench_div16_chnk_simd ... bench:      16,836 ns/iter (+/- 298)
+test bench_div16_iter      ... bench:      30,332 ns/iter (+/- 4,053)
+test bench_div16_loop      ... bench:   2,838,673 ns/iter (+/- 199,752)
+test bench_div16_par       ... bench:      30,713 ns/iter (+/- 6,041)
+test bench_div16_simd      ... bench:      34,872 ns/iter (+/- 1,080)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #74:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,667 ns/iter (+/- 7,032)
+test bench_div16_chnk_simd ... bench:      16,795 ns/iter (+/- 326)
+test bench_div16_iter      ... bench:      29,570 ns/iter (+/- 983)
+test bench_div16_loop      ... bench:   2,825,030 ns/iter (+/- 172,499)
+test bench_div16_par       ... bench:      30,572 ns/iter (+/- 856)
+test bench_div16_simd      ... bench:      34,868 ns/iter (+/- 3,963)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #75:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,676 ns/iter (+/- 3,533)
+test bench_div16_chnk_simd ... bench:      16,834 ns/iter (+/- 1,250)
+test bench_div16_iter      ... bench:      29,584 ns/iter (+/- 2,225)
+test bench_div16_loop      ... bench:   2,938,298 ns/iter (+/- 367,174)
+test bench_div16_par       ... bench:      30,753 ns/iter (+/- 963)
+test bench_div16_simd      ... bench:      34,737 ns/iter (+/- 798)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #76:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,647 ns/iter (+/- 1,055)
+test bench_div16_chnk_simd ... bench:      16,816 ns/iter (+/- 352)
+test bench_div16_iter      ... bench:      29,573 ns/iter (+/- 1,986)
+test bench_div16_loop      ... bench:   2,946,558 ns/iter (+/- 185,303)
+test bench_div16_par       ... bench:      30,591 ns/iter (+/- 1,527)
+test bench_div16_simd      ... bench:      34,730 ns/iter (+/- 941)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #77:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,706 ns/iter (+/- 3,655)
+test bench_div16_chnk_simd ... bench:      16,871 ns/iter (+/- 449)
+test bench_div16_iter      ... bench:      29,600 ns/iter (+/- 1,902)
+test bench_div16_loop      ... bench:   2,867,799 ns/iter (+/- 188,791)
+test bench_div16_par       ... bench:      30,710 ns/iter (+/- 1,636)
+test bench_div16_simd      ... bench:      34,735 ns/iter (+/- 779)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #78:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,712 ns/iter (+/- 1,419)
+test bench_div16_chnk_simd ... bench:      16,948 ns/iter (+/- 6,654)
+test bench_div16_iter      ... bench:      29,686 ns/iter (+/- 831)
+test bench_div16_loop      ... bench:   2,940,445 ns/iter (+/- 163,581)
+test bench_div16_par       ... bench:      30,600 ns/iter (+/- 788)
+test bench_div16_simd      ... bench:      34,609 ns/iter (+/- 1,316)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #79:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,805 ns/iter (+/- 5,844)
+test bench_div16_chnk_simd ... bench:      17,042 ns/iter (+/- 386)
+test bench_div16_iter      ... bench:      29,005 ns/iter (+/- 1,601)
+test bench_div16_loop      ... bench:   2,837,143 ns/iter (+/- 164,753)
+test bench_div16_par       ... bench:      30,905 ns/iter (+/- 14,114)
+test bench_div16_simd      ... bench:      34,586 ns/iter (+/- 853)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #80:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,659 ns/iter (+/- 2,120)
+test bench_div16_chnk_simd ... bench:      16,891 ns/iter (+/- 1,684)
+test bench_div16_iter      ... bench:      29,601 ns/iter (+/- 1,152)
+test bench_div16_loop      ... bench:   2,837,997 ns/iter (+/- 170,773)
+test bench_div16_par       ... bench:      30,657 ns/iter (+/- 3,613)
+test bench_div16_simd      ... bench:      34,602 ns/iter (+/- 750)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #81:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,568 ns/iter (+/- 1,751)
+test bench_div16_chnk_simd ... bench:      16,784 ns/iter (+/- 659)
+test bench_div16_iter      ... bench:      29,230 ns/iter (+/- 898)
+test bench_div16_loop      ... bench:   2,948,908 ns/iter (+/- 143,618)
+test bench_div16_par       ... bench:      31,147 ns/iter (+/- 15,717)
+test bench_div16_simd      ... bench:      34,591 ns/iter (+/- 554)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #82:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,749 ns/iter (+/- 2,326)
+test bench_div16_chnk_simd ... bench:      16,876 ns/iter (+/- 906)
+test bench_div16_iter      ... bench:      29,591 ns/iter (+/- 698)
+test bench_div16_loop      ... bench:   2,927,242 ns/iter (+/- 174,513)
+test bench_div16_par       ... bench:      30,634 ns/iter (+/- 6,193)
+test bench_div16_simd      ... bench:      34,669 ns/iter (+/- 1,109)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #83:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,663 ns/iter (+/- 2,415)
+test bench_div16_chnk_simd ... bench:      16,803 ns/iter (+/- 4,856)
+test bench_div16_iter      ... bench:      29,610 ns/iter (+/- 949)
+test bench_div16_loop      ... bench:   2,940,566 ns/iter (+/- 180,212)
+test bench_div16_par       ... bench:      30,665 ns/iter (+/- 8,733)
+test bench_div16_simd      ... bench:      34,585 ns/iter (+/- 2,373)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #84:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,898 ns/iter (+/- 7,541)
+test bench_div16_chnk_simd ... bench:      16,840 ns/iter (+/- 989)
+test bench_div16_iter      ... bench:      29,232 ns/iter (+/- 450)
+test bench_div16_loop      ... bench:   2,943,355 ns/iter (+/- 172,538)
+test bench_div16_par       ... bench:      30,688 ns/iter (+/- 11,965)
+test bench_div16_simd      ... bench:      34,727 ns/iter (+/- 920)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #85:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,626 ns/iter (+/- 668)
+test bench_div16_chnk_simd ... bench:      16,812 ns/iter (+/- 1,059)
+test bench_div16_iter      ... bench:      29,580 ns/iter (+/- 2,057)
+test bench_div16_loop      ... bench:   2,818,948 ns/iter (+/- 157,597)
+test bench_div16_par       ... bench:      30,685 ns/iter (+/- 6,295)
+test bench_div16_simd      ... bench:      34,608 ns/iter (+/- 824)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #86:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,631 ns/iter (+/- 4,447)
+test bench_div16_chnk_simd ... bench:      16,893 ns/iter (+/- 631)
+test bench_div16_iter      ... bench:      29,603 ns/iter (+/- 1,191)
+test bench_div16_loop      ... bench:   2,939,429 ns/iter (+/- 157,613)
+test bench_div16_par       ... bench:      30,815 ns/iter (+/- 752)
+test bench_div16_simd      ... bench:      34,872 ns/iter (+/- 1,017)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #87:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,778 ns/iter (+/- 2,628)
+test bench_div16_chnk_simd ... bench:      16,867 ns/iter (+/- 2,897)
+test bench_div16_iter      ... bench:      29,559 ns/iter (+/- 1,499)
+test bench_div16_loop      ... bench:   2,960,537 ns/iter (+/- 141,754)
+test bench_div16_par       ... bench:      30,635 ns/iter (+/- 4,576)
+test bench_div16_simd      ... bench:      34,602 ns/iter (+/- 870)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #88:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,791 ns/iter (+/- 7,044)
+test bench_div16_chnk_simd ... bench:      16,914 ns/iter (+/- 1,831)
+test bench_div16_iter      ... bench:      29,082 ns/iter (+/- 1,065)
+test bench_div16_loop      ... bench:   2,932,857 ns/iter (+/- 151,747)
+test bench_div16_par       ... bench:      30,838 ns/iter (+/- 2,610)
+test bench_div16_simd      ... bench:      34,605 ns/iter (+/- 904)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #89:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,871 ns/iter (+/- 554)
+test bench_div16_chnk_simd ... bench:      16,887 ns/iter (+/- 2,655)
+test bench_div16_iter      ... bench:      29,221 ns/iter (+/- 1,499)
+test bench_div16_loop      ... bench:   2,824,263 ns/iter (+/- 163,479)
+test bench_div16_par       ... bench:      30,709 ns/iter (+/- 7,432)
+test bench_div16_simd      ... bench:      34,866 ns/iter (+/- 845)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #90:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,625 ns/iter (+/- 339)
+test bench_div16_chnk_simd ... bench:      16,842 ns/iter (+/- 799)
+test bench_div16_iter      ... bench:      29,599 ns/iter (+/- 1,032)
+test bench_div16_loop      ... bench:   2,834,324 ns/iter (+/- 159,561)
+test bench_div16_par       ... bench:      30,870 ns/iter (+/- 4,259)
+test bench_div16_simd      ... bench:      34,802 ns/iter (+/- 1,252)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #91:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,703 ns/iter (+/- 537)
+test bench_div16_chnk_simd ... bench:      16,883 ns/iter (+/- 192)
+test bench_div16_iter      ... bench:      29,450 ns/iter (+/- 1,534)
+test bench_div16_loop      ... bench:   2,822,861 ns/iter (+/- 159,705)
+test bench_div16_par       ... bench:      30,655 ns/iter (+/- 2,335)
+test bench_div16_simd      ... bench:      34,620 ns/iter (+/- 1,785)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #92:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,662 ns/iter (+/- 4,260)
+test bench_div16_chnk_simd ... bench:      16,867 ns/iter (+/- 4,263)
+test bench_div16_iter      ... bench:      29,601 ns/iter (+/- 1,237)
+test bench_div16_loop      ... bench:   2,905,204 ns/iter (+/- 198,653)
+test bench_div16_par       ... bench:      30,758 ns/iter (+/- 20,498)
+test bench_div16_simd      ... bench:      34,605 ns/iter (+/- 1,378)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #93:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,683 ns/iter (+/- 649)
+test bench_div16_chnk_simd ... bench:      16,889 ns/iter (+/- 801)
+test bench_div16_iter      ... bench:      29,572 ns/iter (+/- 1,061)
+test bench_div16_loop      ... bench:   2,944,354 ns/iter (+/- 146,715)
+test bench_div16_par       ... bench:      30,710 ns/iter (+/- 4,679)
+test bench_div16_simd      ... bench:      34,675 ns/iter (+/- 2,044)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #94:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,530 ns/iter (+/- 1,689)
+test bench_div16_chnk_simd ... bench:      16,839 ns/iter (+/- 820)
+test bench_div16_iter      ... bench:      29,602 ns/iter (+/- 2,014)
+test bench_div16_loop      ... bench:   2,940,173 ns/iter (+/- 196,743)
+test bench_div16_par       ... bench:      30,776 ns/iter (+/- 2,532)
+test bench_div16_simd      ... bench:      34,871 ns/iter (+/- 1,344)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #95:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,652 ns/iter (+/- 886)
+test bench_div16_chnk_simd ... bench:      16,868 ns/iter (+/- 339)
+test bench_div16_iter      ... bench:      29,370 ns/iter (+/- 1,546)
+test bench_div16_loop      ... bench:   2,940,814 ns/iter (+/- 156,616)
+test bench_div16_par       ... bench:      30,753 ns/iter (+/- 9,997)
+test bench_div16_simd      ... bench:      34,873 ns/iter (+/- 1,322)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #96:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,692 ns/iter (+/- 962)
+test bench_div16_chnk_simd ... bench:      16,879 ns/iter (+/- 2,744)
+test bench_div16_iter      ... bench:      29,603 ns/iter (+/- 1,216)
+test bench_div16_loop      ... bench:   2,821,770 ns/iter (+/- 142,744)
+test bench_div16_par       ... bench:      30,814 ns/iter (+/- 900)
+test bench_div16_simd      ... bench:      34,586 ns/iter (+/- 909)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #97:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,743 ns/iter (+/- 2,810)
+test bench_div16_chnk_simd ... bench:      16,925 ns/iter (+/- 1,496)
+test bench_div16_iter      ... bench:      29,544 ns/iter (+/- 1,064)
+test bench_div16_loop      ... bench:   2,940,850 ns/iter (+/- 175,518)
+test bench_div16_par       ... bench:      30,741 ns/iter (+/- 3,420)
+test bench_div16_simd      ... bench:      34,736 ns/iter (+/- 689)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #98:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      25,057 ns/iter (+/- 4,261)
+test bench_div16_chnk_simd ... bench:      16,951 ns/iter (+/- 830)
+test bench_div16_iter      ... bench:      29,622 ns/iter (+/- 809)
+test bench_div16_loop      ... bench:   2,944,374 ns/iter (+/- 187,220)
+test bench_div16_par       ... bench:      30,709 ns/iter (+/- 9,075)
+test bench_div16_simd      ... bench:      34,607 ns/iter (+/- 900)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #99:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,726 ns/iter (+/- 652)
+test bench_div16_chnk_simd ... bench:      16,903 ns/iter (+/- 536)
+test bench_div16_iter      ... bench:      29,746 ns/iter (+/- 4,688)
+test bench_div16_loop      ... bench:   2,818,314 ns/iter (+/- 157,440)
+test bench_div16_par       ... bench:      30,687 ns/iter (+/- 5,338)
+test bench_div16_simd      ... bench:      34,599 ns/iter (+/- 684)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
+Run #100:
+
+running 6 tests
+test bench_div16_chnk      ... bench:      24,622 ns/iter (+/- 684)
+test bench_div16_chnk_simd ... bench:      16,785 ns/iter (+/- 581)
+test bench_div16_iter      ... bench:      29,379 ns/iter (+/- 1,051)
+test bench_div16_loop      ... bench:   2,888,870 ns/iter (+/- 156,144)
+test bench_div16_par       ... bench:      30,697 ns/iter (+/- 5,637)
+test bench_div16_simd      ... bench:      34,871 ns/iter (+/- 1,479)
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 6 measured; 0 filtered out
+
