@@ -17,7 +17,7 @@ fn div16_loop(image: &mut image::GrayImage)
     {
         for j in 0 .. image.height()
         {
-            image.get_pixel_mut(i, j) [0] /= 16;
+            image.get_pixel_mut(j, i) [0] /= 16;
         }
     }
 }
