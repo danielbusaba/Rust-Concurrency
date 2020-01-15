@@ -44,7 +44,7 @@ fn div16_par(image: &mut image::GrayImage)
 
 fn div16_chnk(image: &mut image::GrayImage)
 {
-    let chunk_size = (image.width() * image.height()) as usize / num_cpus::get() + 1;
+    let chunk_size = (image.width() * image.height() - 1) as usize / num_cpus::get() + 1;
     image.par_chunks_mut(chunk_size).for_each(
         | chunk |
         {
@@ -70,7 +70,7 @@ fn div16_simd(image: &mut image::GrayImage)
 
 fn div16_chnk_simd(image: &mut image::GrayImage)
 {
-    let chunk_size = (image.width() * image.height()) as usize / num_cpus::get() + 1;
+    let chunk_size = (image.width() * image.height() - 1) as usize / num_cpus::get() + 1;
     image.par_chunks_mut(chunk_size).for_each(
         | chunk |
         {
