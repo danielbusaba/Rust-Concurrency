@@ -13,9 +13,9 @@ const IMAGE_DIR: &str = "images";
 
 fn div16_loop(image: &mut image::GrayImage)
 {
-    for i in 0 .. image.width()
+    for i in 0 .. image.height()
     {
-        for j in 0 .. image.height()
+        for j in 0 .. image.width()
         {
             image.get_pixel_mut(j, i) [0] /= 16;
         }
